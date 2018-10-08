@@ -1,0 +1,35 @@
+/* datos.css */
+datos
+{
+	background-color:#A9F5BC;
+	border-spacing: 10px;
+
+}
+
+nombre{
+	
+	display: table-cell;
+	color:#FF0000;
+    font-style:italic
+}
+
+apellido{
+
+	
+	color:#FF0000;
+    font-style:italic
+}
+
+carnet{
+
+	display: table;
+	color:#0174DF;
+    font-style:italic
+}
+
+correo{
+
+	display: table;
+	color:#0174DF;
+    font-style:italic
+}
