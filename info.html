@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127192950-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'UA-127192950-1');
+	</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Servicios</title>
@@ -39,16 +48,16 @@
                             <h2 class="tittles-pages">Acerca de PhoneSV</h2>
                             <i class="fa fa-tablet fa-5x"></i> &nbsp; <i class="fa fa-mobile fa-5x"></i>
                             <p class="lead">
-                                Somos un Portal Web que te mantiene al tanto de lo último en tecnología Celular 
+                                Somos un Portal Web que te mantiene al tanto de lo último en tecnología Celular
                             </p>
                             <div class="text-center">
                                 <img src="assets/img/phone-font-index.jpg" width="500px">
                             </div>
                             <div>
                                   <p class="lead">
-                                El objetivo de PhoneSV es brindar toda la información disponible para que nuestros visitantes puedan decidir sobre que celular adquirir, aquel que se acomode a las necesidades y exigencias del mundo actual. 
+                                El objetivo de PhoneSV es brindar toda la información disponible para que nuestros visitantes puedan decidir sobre que celular adquirir, aquel que se acomode a las necesidades y exigencias del mundo actual.
                             </p>
-                            </div> 
+                            </div>
                         </div>
                         <div class="col-xs-12">
                             <h2 class="text-center tittles-pages">Información.</h2>
@@ -68,26 +77,26 @@
                                 // Abrimos el archivo que esta alojado en el servidor cd_catalog.xml
                                 xmlhttp.open("GET","datos.xml",false);
                                 xmlhttp.send();
- 
+
                                 // Obtenemos un objeto XMLDocument con el contenido del archivo xml del servidor
                                 xmlDoc=xmlhttp.responseXML;
- 
+
                                 // Obtenemos todos los nodos denominados foro del archivo xml
                                 var datos=xmlDoc.getElementsByTagName("dato");
- 
+
                                 // Hacemos un bucle por todos los elementos foro
                                 for(var i=0;i<datos.length;i++)
                                     {
                                     // Del elemento dato, obtenemos del primer elemento denominado "titulo"
                                     // el valor del primer elemento interno
                                     nombre=datos[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue
- 
+
                                     apellido=datos[i].getElementsByTagName("apellido")[0].childNodes[0].nodeValue
 
                                     carnet=datos[i].getElementsByTagName("carnet")[0].childNodes[0].nodeValue
 
                                     correo=datos[i].getElementsByTagName("correo")[0].childNodes[0].nodeValue
- 
+
                                     document.write("<div>");
                                     document.write("<span>");
                                     document.write(nombre);
@@ -119,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-            </section> 
+            </section>
         </div>
     	<footer class="footer">
             <div class="container-fluid">
@@ -128,7 +137,7 @@
                     <ul class="list-unstyled list-social-icons">
                         <li >
                             <a href="https://www.facebook.com/Phonesv-1805025099610180/">
-                               <i class="fa fa-facebook" style="background-color: #3B5998;"></i> 
+                               <i class="fa fa-facebook" style="background-color: #3B5998;"></i>
                             </a>
                         </li>
                         <li>
