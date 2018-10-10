@@ -1,34 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="datos.css" ?>
+<?xml-stylesheet type="text/css" href="css/datos.css"?>
 
 <datos>
+  <servicios>
+		<titulo>Phone SV</titulo>
+		<subtitulo>Personal administrativo</subtitulo>
+	</servicios>
 	<dato>
-		<nombre>Álvaro Alexander </nombre>
-		<apellido> Ayala Serrano </apellido>
+		<nombre>Álvaro Alexander Ayala Serrano </nombre>
 		<carnet>AS13053 </carnet>
 		<correo>as13053@ues.edu.sv</correo>
 	</dato>
 	<dato>
-		<nombre>Salvador de Jesús </nombre>
-		<apellido>Chacón Sánchez </apellido>
+		<nombre>Salvador de Jesús Chacón Sánchez </nombre>
 		<carnet>CS08004 </carnet>
 		<correo>cs08004@ues.edu.sv</correo>
 	</dato>
 	<dato>
-		<nombre>Katia María </nombre>
-		<apellido>Marroquín Aguilar </apellido>
+		<nombre>Katia María Marroquín Aguilar </nombre>
 		<carnet>MA12013 </carnet>
 		<correo>ma12013@ues.edu.sv</correo>
 	</dato>
 	<dato>
-		<nombre>Tobías Alexander </nombre>
-		<apellido>Santamaría Díaz </apellido>
+		<nombre>Tobías Alexander Santamaría Díaz </nombre>
 		<carnet>SD13010 </carnet>
 		<correo>sd13010@ues.edu.sv</correo>
 	</dato>
 	<dato>
-		<nombre>José Miguel </nombre>
-		<apellido>Umaña Ramírez </apellido>
+		<nombre>José Miguel Umaña Ramírez </nombre>
 		<carnet>UR08001 </carnet>
 		<correo>ur08001@ues.edu.sv</correo>
 	</dato>
