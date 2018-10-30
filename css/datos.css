@@ -1,0 +1,61 @@
+/* datos.css */
+
+
+datos
+{
+	background: url(../assets/img/agua-tecnologia-pixabay.jpg) center center fixed no-repeat;
+	background-size: cover;
+	font-family: 'Quicksand';
+
+}
+
+
+titulo{
+	text-align: center; 
+	display:block;
+	color: red;
+	font-style:italic;
+	font-size: 40px;
+	letter-spacing: 0;
+	text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+    
+}
+subtitulo{
+	text-align: center; 
+	display:block;
+	color: red;
+	font-style:italic;
+	font-size: 30px;
+	letter-spacing: 0;
+	text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+}
+
+nombre{
+	text-align: center; 
+	display:block;
+	color: #fff;
+	font-style:italic;
+	font-size: 25px;
+	letter-spacing: 0;
+	text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+}
+
+
+carnet{
+	text-align: center; 
+	display:block;
+	color: #fff;
+	font-style:italic;
+	font-size: 25px;
+	letter-spacing: 0;
+	text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+}
+
+correo{
+	text-align: center; 
+	display:block;
+	color: yellow;
+	font-style:italic;
+	font-size: 25px;
+	letter-spacing: 0;
+	text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;

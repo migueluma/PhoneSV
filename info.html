@@ -63,51 +63,8 @@
                             <h2 class="text-center tittles-pages">Información.</h2>
                             <div class="col-xs-12 text-center">
                             <p class="lead">
-                                Personal administrativo:
+                                <a href='datos.xml' >Personal administrativo</a>
                             </p>
-                            <script>
-                                if (window.XMLHttpRequest)
-                                    {
-                                    // Objeto para IE7+, Firefox, Chrome, Opera, Safari
-                                    xmlhttp=new XMLHttpRequest();
-                                }else{
-                                    // Objeto para IE6, IE5
-                                    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-                                }
-                                // Abrimos el archivo que esta alojado en el servidor cd_catalog.xml
-                                xmlhttp.open("GET","datos.xml",false);
-                                xmlhttp.send();
-
-                                // Obtenemos un objeto XMLDocument con el contenido del archivo xml del servidor
-                                xmlDoc=xmlhttp.responseXML;
-
-                                // Obtenemos todos los nodos denominados foro del archivo xml
-                                var datos=xmlDoc.getElementsByTagName("dato");
-
-                                // Hacemos un bucle por todos los elementos foro
-                                for(var i=0;i<datos.length;i++)
-                                    {
-                                    // Del elemento dato, obtenemos del primer elemento denominado "titulo"
-                                    // el valor del primer elemento interno
-                                    nombre=datos[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue
-
-                                    apellido=datos[i].getElementsByTagName("apellido")[0].childNodes[0].nodeValue
-
-                                    carnet=datos[i].getElementsByTagName("carnet")[0].childNodes[0].nodeValue
-
-                                    correo=datos[i].getElementsByTagName("correo")[0].childNodes[0].nodeValue
-
-                                    document.write("<div>");
-                                    document.write("<span>");
-                                    document.write(nombre);
-                                    document.write(apellido );
-                                    document.write(carnet );
-                                    document.write("</span><span>");
-                                    document.write("<a href='contact.html' target='_blank'>"+correo+"</a>");
-                                    document.write("</span>");
-                                    document.write("</div>");
-                                }
-                            </script>
                             </div>
                             <div class="principal-container-services">
                                 <a href="product.html">
@@ -117,7 +74,7 @@
                                         Visite nuestra sección de Productos para conocer lo ultimo en Smartphone!
                                     </p>
                                 </a>
-                                <a href="#!">
+                                <a href="contact.html">
                                     <p class="icon-service"><i class="fa fa-envelope"></i></p>
                                     <p class="tittle-service">Contáctenos</p>
                                     <p class="description-service">
@@ -151,7 +108,7 @@
                             </a>
                         </li>
                           <li>
-                            <a href="">
+                            <a href="https://www.instagram.com/phonesv_09/">
                                 <i class="fa fa-instagram"  style="background-color: #DF7401;"></i>
                             </a>
                         </li>
